@@ -1,11 +1,10 @@
 Package.describe({
-  name: "natestrauser:font-awesome",
+  name: "font-awesome-plus",
   summary: "Latest version Font-Awesome loaded via CDN",
-  version: "4.5.0",
-  git: "https://github.com/nate-strauser/meteor-font-awesome.git"
+  version: "0.0.1"
 });
 
 Package.onUse(function (api){
-  api.versionsFrom("METEOR@0.9.0");
+  api.versionsFrom("METEOR@1.2.1");
   api.addFiles('load.js', 'client');
 });
